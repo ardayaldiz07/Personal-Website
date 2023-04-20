@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=auto');
+
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0px; padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    color: $tertiary-color;
+    background-color: $primary-color;
+    font-size: $primary-text-size;
+    font-weight: 500;
+    height: 100vh;
+    line-height: 1.6;
+    @media (max-width:640px) {
+        height: auto;
+    }
+    a{
+        color: $tertiary-color;
+    }
+}

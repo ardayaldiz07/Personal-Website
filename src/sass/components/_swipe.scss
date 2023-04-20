@@ -1,0 +1,16 @@
+.swipe {
+    position: absolute;
+    display: none;
+    width: 100%;
+    text-align: center;
+    color: lighten($color: $primary-color, $amount: 12%);
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    left: 0;
+    bottom: 50px;
+
+    @media (max-width:640px) {
+        display: block;
+    }
+}

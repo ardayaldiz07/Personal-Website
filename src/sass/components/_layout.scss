@@ -1,0 +1,29 @@
+main {
+    display: block;
+    padding: 0px;
+    height: 100%;
+
+    .container {
+        height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .skills {
+        display: block;
+
+        >.title {
+            position: sticky;
+            top: 0px;
+            margin:0 0 0 -30px;
+            padding: 20px 30px;
+            width: calc(100% + 60px);
+            // background-color: darken($primary-color, 8%);
+        }
+
+        .field {
+            display: block;
+            margin: 0 0 30px;
+        }
+    }
+}
